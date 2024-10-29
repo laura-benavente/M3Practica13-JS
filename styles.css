@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:peachpuff;
+    color: rgba(0, 0, 0, 1);
+}
+
+#informacion {
+    background-color: rgba(255, 192, 203, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#buttons {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: rgba(255, 182, 193, 0.8);
+    color: rgba(147, 112, 219, 1);
+    border: 2px solid rgba(147, 112, 219, 1); 
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgba(147, 112, 219, 0.8);
+    color: rgba(255, 182, 193, 1);
+}
+
+#output {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(147, 112, 219, 0.5);
+    border-radius: 10px;
+}
